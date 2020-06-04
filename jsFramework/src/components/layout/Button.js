@@ -2,12 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 
 // Adding PropTypes to the Button
-function Button({ children }) {
-	return <button>{children}</button>;
+function Button({ text }) {
+	return <button>{text}</button>;
 }
 
 Button.propTypes = {
-	children: PropTypes.node.isRequired
+	text: PropTypes.node.isRequired
 };
 
 export default Button;
