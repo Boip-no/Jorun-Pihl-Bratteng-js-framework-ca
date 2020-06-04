@@ -1,0 +1,21 @@
+@import "partials/_variables";
+
+.container {
+	padding-top: 30px;
+}
+
+.layout {
+	width: 100%;
+	max-width: 800px;
+	padding: 30px;
+	background: #ebebeb;
+	margin: 0 auto;
+}
+
+.error {
+	color: red;
+}
+
+img {
+	width: 400px;
+}
