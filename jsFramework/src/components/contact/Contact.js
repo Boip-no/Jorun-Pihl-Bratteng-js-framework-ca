@@ -28,13 +28,13 @@ function Contact() {
         <Form onSubmit={handleSubmit(onSubmit)}>
             <Form.Group>
                 <Form.Label>First name</Form.Label>
-                <Form.Control name="firstName" placeholder="Please enter your name" ref={register} />
+                <Form.Control name="firstName" placeholder="First name" ref={register} />
                 {errors.firstName && <ErrorMessage>{errors.firstName.message}</ErrorMessage>}
             </Form.Group>
 
             <Form.Group>
                 <Form.Label>Last name</Form.Label>
-                <Form.Control name="lastName" placeholder="Please enter your name" ref={register} />
+                <Form.Control name="lastName" placeholder="Last name" ref={register} />
                 {errors.lastName && <ErrorMessage>{errors.lastName.message}</ErrorMessage>}
             </Form.Group>
 
@@ -46,7 +46,7 @@ function Contact() {
 
             <Form.Group>
                 <Form.Label>Message</Form.Label>
-                <Form.Control name="message" placeholder="Please write your message here" ref={register} />
+                <Form.Control name="message" placeholder="Your message here" ref={register} />
                 {errors.message && <ErrorMessage>{errors.message.message}</ErrorMessage>}
             </Form.Group>
 

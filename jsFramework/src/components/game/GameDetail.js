@@ -27,7 +27,7 @@ function GameDetail() {
 
     return (
         <Row>
-            <Col md={8} className="detail-image">
+            <Col md={6} className="detail-image">
                 <Image src={gameDetail.background_image} />
             </Col>
             <Col>

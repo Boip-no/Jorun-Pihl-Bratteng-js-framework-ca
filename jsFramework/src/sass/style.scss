@@ -1,5 +1,10 @@
-@import "partials/_variables";
+@import "./partials/game";
 
+body {
+	background-color: lightgrey;
+}
+
+// product site
 .container {
 	padding-top: 30px;
 }
@@ -12,10 +17,22 @@
 	margin: 0 auto;
 }
 
+
+// error
 .error {
 	color: red;
 }
 
-img {
-	width: 400px;
+
+// search
+.search {
+    margin: 1em 0;
+}
+
+.clear-search {
+    margin-bottom: 30px;
+}
+
+.clear-search__buttom {
+    margin-left: 10px;
 }
