@@ -36,7 +36,8 @@ function GameDetail() {
                     <b>Link:</b> {gameDetail.website}
                 </p>
                 <p>
-                    <b>Description:</b> {gameDetail.description}
+                    <b>Description:</b> 
+                    <div dangerouslySetInnerHTML={{__html: gameDetail.description}} />
                 </p>
             </Col>
         </Row>
